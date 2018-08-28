@@ -1,0 +1,26 @@
+{
+  "name": "scl-2018-01-fe-markdown",
+  "version": "1.0.0",
+  "description": "ejercicio markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahytar/scl-2018-01-FE-markdown.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "Mayra Alejandra Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahytar/scl-2018-01-FE-markdown/issues"
+  },
+  "homepage": "https://github.com/nahytar/scl-2018-01-FE-markdown#readme",
+  "dependencies": {
+    "jest": "^23.5.0",
+    "markdown": "^0.5.0"
+  }
+}
