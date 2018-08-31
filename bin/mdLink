@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+const mdLinks = require('../lib/mdlink')
+const path = require('path')
+
+const [, , ...userCLIArgs] = process.argv;
+let options = {};
+if (userCLIArgs[1] === '--validate') {
+  options.validate = true
+}
+mdLinks.mdLinks(path.join(process.cwd(), userCLIArgs[0]), options).then((links) => {
+  console.log(JSON.stringify(links))
+})
