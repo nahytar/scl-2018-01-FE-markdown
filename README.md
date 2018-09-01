@@ -1,6 +1,11 @@
 # Markdown Links
 Libreria node para buscar y validar links dentro de un markdown.
 
+##Versiones
+0.0.1
+0.0.2
+
+
 ## Como instalar
 ```
 npm install --save markdown-links-checker
