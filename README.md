@@ -33,4 +33,4 @@ mdLink.mdLinks('path/to/file.md', {validate: true});
 ```
 
 ### Planificación
-[I'm an inline-style link](https://trello.com/b/RSzD8Vg5/markdown-links)
+[Trello](https://trello.com/b/RSzD8Vg5/markdown-links)
