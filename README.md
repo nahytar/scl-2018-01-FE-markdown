@@ -2,7 +2,9 @@
 Libreria node para buscar y validar links dentro de un markdown.
 
 ## Como instalar
-npm install --save https://github.com/nahytar/scl-2018-01-FE-markdown.git
+```
+npm install --save markdown-links-checker
+```
 
 ## Uso desde consola
 
@@ -29,3 +31,6 @@ mdLink.mdLinks('path/to/file.md', {validate: false});
 const mdLink = require('mdLink');
 mdLink.mdLinks('path/to/file.md', {validate: true});
 ```
+
+### Planificación
+[I'm an inline-style link](https://trello.com/b/RSzD8Vg5/markdown-links)
